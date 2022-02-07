@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <h3>Add Book</h3>
+        <form id="form">
+            <div class="margin">
+                <label for="title">TItle</label><br>
+                <input type="text" name="uname"required id="title" class="gettitle">
+            </div>
+            <div class="margin">
+                <label for="Author">Author</label><br>
+                <input type="text" name="uname"required  id="author" class="gettitle">
+            </div>
+            <div class="margin">
+                <label for="isbn">ISBN#</label><br>
+                <input type="text" name="uname"required  id="isbn" class="gettitle">
+            </div>
+            <div class="margin">
+                <button type="submit" class="getsubmit" id="submit"><strong>Submit</strong></button>
+            </div>
+            <table class="gettable">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>ISBN#</th>
+                    </tr>
+                    <tbody id="tbody">
+    
+                    </tbody>
+                </thead>
+             
+            </table>
+        </form>
+    </div>
+    
+   
+    <script src="index.js"></script>
+</body>
+</html>
