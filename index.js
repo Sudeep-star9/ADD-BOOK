@@ -13,7 +13,7 @@ UI.prototype.listbook=function(Book){
   <td>${Book.title}</td>
   <td>${Book.author}</td>
   <td>${Book.isbn}</td>
-  <td>${document.createElement('button')}</td>
+ 
    `
   tr.innerHTML=list
   tbody.appendChild(tr)
